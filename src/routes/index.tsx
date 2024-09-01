@@ -49,7 +49,7 @@ function Home() {
           <p><strong>User ID:</strong> {data.userId}</p>
           <p><strong>ID:</strong> {data.id}</p>
           <p><strong>Title:</strong> {data.title}</p>
-          <p><strong>Completed:</strong> {data.completed ? data.completed : 'No'}</p>
+          <p><strong>Completed:</strong> {data.completed ? 'Yes' : 'No'}</p>
         </div>
       ) : (
         <p>Loading...</p>
